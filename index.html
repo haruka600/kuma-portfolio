@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet"> -->
+    <link href="./assets/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./assets/p5.min.js"></script>
+</head>
+
+<body>
+    <!--canvas-->
+    <div id="canvas-parent" class="hero text-center">
+        <div class="overray px-4 py-5">
+            <h1 class="display-5 fw-bold">Haruka Kumada</h1>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+                <a href="#about-header">About</a>
+            </div>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#projects-header">Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!--本文-->
+    <div class="container">
+        <h2 id="about-header" class="text-center mb-4">About</h2>
+        <div class="row">
+            <h3 class="mb-4">熊田 晴香 / Haruka Kumada</h3>
+        </div>
+        <div class="row">
+            
+            <img src="assets/img/sakura.jpg" class="rounded  d-block col-4 col-md-3" >
+            <div class="col-8 col-md-9">
+                <p>高校卒業後、自然や環境分野の専門学校を経て明星大学情報学部に入学。<br>
+                    天体、気象、地学、文化が好き。趣味は絵や小説をかくこと。
+                </p>
+            </div>
+            <!-- <div class="img-text">
+                <div class="col-4 col-md-3">
+                    <img src="assets/img/sakura.jpg" class="rounded mx-auto d-block" width="200" height="200">
+                </div>
+                <div class="col-8 col-md-9">
+                    <p>高校卒業後、自然や環境分野の専門学校を経て明星大学情報学部に入学。<br>
+                        天体、気象、地学、文化が好き。趣味は絵や小説をかくこと。
+                    </p>
+                </div>
+            </div> -->
+        </div>
+
+        <h2 id="projects-header" class="text-center mb-4 mt-5">Projects</h2>
+        <div class="row">
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/record.jpg" class="card-img-top" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">テラゾーレコード（2023）</h5>
+                        <p class="card-text">廃材を利用した作品<br>Filter Galleryにて展示</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/popsakura.jpg" class="card-img-top" width="200" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">桜の守の満開の下（2023）</h5>
+                        <p class="card-text">桜に見立てた人口ピラミッドが体験者の立っている場所によって変化する作品<br>
+                            パルテノン多摩にて展示</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/tears.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">泣いてる人（2022）</h5>
+                        <p class="card-text">チェビシェフ多項式のグラフから泣いている人の横顔を表現した作品</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/kumo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">蜘蛛（2022）</h5>
+                        <p class="card-text">フーリエ級数展開のグラフから蜘蛛の巣を表現した作品</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/tabaco.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">たばこの煙（2022）</h5>
+                        <p class="card-text">フーリエ級数展開のグラフからたばこの煙を表現した作品</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 p-1">
+                <div class="card">
+                    <img src="assets/img/hotdog.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ホットドック（2022）</h5>
+                        <p class="card-text">テイラー展開のグラフからホットドックのケチャップを表現した作品</p>
+                        <a class="" href="http://www.eleal.meisei-u.ac.jp/202203045401.html" target="_blank">LINK</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footer mt-4 py-3 bg-light">
+        <div class="text-center">
+            <span class="text-secondary">&copy; 2023 Haruka Kumada</span>
+        </div>
+    </footer>
+
+    <script src="./assets/bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
